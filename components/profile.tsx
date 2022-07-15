@@ -34,14 +34,9 @@ function profile() {
        <Grid.Container alignItems="center">
       <Grid>
         <Tooltip placement="bottom" content={<ProfileInfo />} color="invert">
-          <Avatar
-            pointer
-            size="xl"
-            src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/d13ba675122137.5c44239685eb3.gif"
-            color="gradient"
-            bordered
-            squared
-          />
+          <a 
+          href="/SignIn"
+          className="text-white font-bold bg-blue-600 rounded p-2">Sign Up</a>
         </Tooltip>
       </Grid>
     </Grid.Container>

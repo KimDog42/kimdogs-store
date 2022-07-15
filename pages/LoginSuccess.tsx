@@ -6,10 +6,9 @@ function LoginSuccess() {
     <div className="bg-black h-screen flex justify-center">
     <div>
 
-        <div>
-            <h2 className="text-bold text-2xl text-white flex justify-center">Login Successful</h2>
+        <div className="pt-40">
             <div className="pt-80">   
-            <Loading textColor="secondary" color="error" size="xl">YOU CAN NOW CONTINUE</Loading>
+            <Loading textColor="success" color="success" size="xl">YOU CAN NOW CONTINUE!</Loading>
             </div>
         </div>
         <div className="text-white flex items-center space-x-2 pt-40 justify-center">

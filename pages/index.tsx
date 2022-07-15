@@ -3,16 +3,19 @@ import Head from 'next/head'
 import Image from 'next/image'
 import TopBar from './../components/TopBar';
 import Profile from './../components/profile';
+import {SSRProvider} from '@react-aria/ssr';
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="bg-black h-screen">
       <Head>
         <title>KimDog.store</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <SSRProvider>
       <TopBar/>
+      </SSRProvider>
     </div>
   )
 }

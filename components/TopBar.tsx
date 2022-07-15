@@ -11,9 +11,10 @@ import {
 import Profile from './profile';
 import { Input, Tooltip, Button, Grid, Spacer } from "@nextui-org/react";
 
+
 function TopBar() {
   return (
-    <div className="pt-5 bg-gray-800">
+    <div className="pt-5 bg-black">
     <div className="flex justify-end pr-10">
         <Profile/>
     </div>

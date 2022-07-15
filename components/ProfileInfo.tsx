@@ -9,14 +9,14 @@ function ProfileInfo() {
           <Row>
             <Grid xs={12} direction="column" color="error">
               <Text className="user-twitter-card__text" b size={16} color="invert">
-                KimDog
+                Guest
               </Text>
               <Text
                 className="text-white"
                 size={14}
                 color="invert"
               >
-                @KimDog
+                @Guest
               </Text>
             </Grid>
           </Row>
