@@ -7,7 +7,7 @@ import {SSRProvider} from '@react-aria/ssr';
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-black h-screen">
+    <div className="bg-black h-screen scroll-smooth">
       <Head>
         <title>KimDog.store</title>
         <link rel="icon" href="/favicon.ico" />

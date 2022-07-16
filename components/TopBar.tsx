@@ -14,7 +14,7 @@ import { Input, Tooltip, Button, Grid, Spacer } from "@nextui-org/react";
 
 function TopBar() {
   return (
-    <div className="pt-5 bg-black">
+    <div className="pt-5 shadow-2xl h-30 pb-5 bg-black">
     <div className="flex justify-end pr-10">
         <Profile/>
     </div>
@@ -24,7 +24,7 @@ function TopBar() {
       <Grid>
       <Tooltip content="Home" placement="bottom" color="invert">
         <a href="/">
-    <HomeIcon className="h-10 flex items-center text-white hover:text-blue-500"/>
+    <HomeIcon className="h-10 flex items-center text-white transition ease-in-out delay-150hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 rounded"/>
     </a>
     </Tooltip>
       </Grid>
@@ -34,7 +34,7 @@ function TopBar() {
       <Grid>
       <Tooltip content="Search" placement="bottom" color="invert">
         <a href="/Search">
-    <SearchIcon className="h-10 flex items-center text-white hover:text-blue-500"/>
+    <SearchIcon className="h-10 flex items-center text-white  transition ease-in-out delay-150hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 rounded"/>
     </a>
     </Tooltip>
       </Grid>
@@ -44,7 +44,7 @@ function TopBar() {
       <Grid>
       <Tooltip content="Friends" placement="bottom" color="invert">
         <a href="/Friends">
-    <UserGroupIcon className="h-10 flex items-center text-white hover:text-blue-500"/>
+    <UserGroupIcon className="h-10 flex items-center text-whitetransition ease-in-out delay-150hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 rounded text-white"/>
     </a>
     </Tooltip>
       </Grid>

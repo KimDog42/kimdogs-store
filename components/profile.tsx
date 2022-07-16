@@ -5,14 +5,14 @@ import { BellIcon, CogIcon } from '@heroicons/react/outline';
 
 function profile() {
   return (
-    <div className="flex justify-end pr-20 space-x-5">
+    <div className="flex justify-end space-x-5">
 
 <div className="flex justify-end items-center">
       <Grid.Container>
       <Grid>
       <Tooltip content="Notifications" placement="bottom" color="invert">
         <a href="/Alerts">
-    <BellIcon className="h-10 flex items-center text-white hover:text-blue-500"/>
+      <BellIcon className="h-10 flex items-center text-white  transition ease-in-out delay-150hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 rounded"/>
     </a>
     </Tooltip>
       </Grid>
@@ -24,7 +24,7 @@ function profile() {
       <Grid>
       <Tooltip content="Settings" placement="bottom" color="invert">
         <a href="/Profile/Settings">
-    <CogIcon className="h-10 flex items-center text-white hover:text-blue-500"/>
+    <CogIcon className="h-10 flex items-center text-white transition ease-in-out delay-150hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 rounded"/>
     </a>
     </Tooltip>
       </Grid>
@@ -36,7 +36,7 @@ function profile() {
         <Tooltip placement="bottom" content={<ProfileInfo />} color="invert">
           <a 
           href="/SignIn"
-          className="text-white font-bold bg-blue-600 rounded p-2">Sign Up</a>
+          className="text-white font-bold bg-blue-600 rounded p-2 hover:bg-gray-600 transition delay-150 duration-300 ease-in-out">Sign In Or Sign Up</a>
         </Tooltip>
       </Grid>
     </Grid.Container>
