@@ -4,7 +4,7 @@ import TopBar from '../../components/TopBar'
 
 function ProfileSettings() {
   return (
-    <div>
+    <div className="bg-black h-screen overflow-y-scroll">
         <TopBar/>
         <SettingsSidebar/>
     </div>

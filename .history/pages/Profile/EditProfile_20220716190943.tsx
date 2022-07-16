@@ -1,11 +1,11 @@
 import React from 'react'
 import TopBar from '../../components/TopBar'
 import SettingsSidebar from "../../components/Profile/SettingsSidebar"
-import EditProfileFunctions from "../../components/Profile/EditProfileFunctions"
+import
 
 function EditProfile() {
   return (
-    <div className="bg-black h-screen overflow-hidden">
+    <div>
         <TopBar/>
         <SettingsSidebar/>
         <EditProfileFunctions/>

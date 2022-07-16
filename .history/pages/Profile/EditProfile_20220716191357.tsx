@@ -5,10 +5,9 @@ import EditProfileFunctions from "../../components/Profile/EditProfileFunctions"
 
 function EditProfile() {
   return (
-    <div className="bg-black h-screen overflow-hidden">
+    <div>
         <TopBar/>
         <SettingsSidebar/>
-        <EditProfileFunctions/>
     </div>
   )
 }
