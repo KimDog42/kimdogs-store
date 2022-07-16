@@ -1,4 +1,5 @@
 import React from 'react'
+import MarketplaceContents from '../../components/Marketplace/MarketplaceContents'
 import MarketPlaceFunction from '../../components/Marketplace/MarketPlaceFunction'
 import TopBar from '../../components/TopBar'
 
@@ -7,6 +8,7 @@ function Marketplace() {
     <div>
         <TopBar/>
         <MarketPlaceFunction/>
+        <MarketplaceContents/>
     </div>
   )
 }
