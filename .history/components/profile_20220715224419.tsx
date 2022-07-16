@@ -23,7 +23,7 @@ function profile() {
       <Grid.Container>
       <Grid>
       <Tooltip content="Settings" placement="bottom" color="invert">
-        <a href="/Profile/ProfileSettings">
+        <a href="/Profile/Settings">
     <CogIcon className="h-10 flex items-center text-white transition ease-in-out delay-150hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 rounded"/>
     </a>
     </Tooltip>

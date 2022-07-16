@@ -1,5 +1,5 @@
 import React from 'react'
-import GhostLoading from '../GhostLoading'
+import GhostLoading from './GhostLoading'
 
 function MarketplaceContents() {
   return (
