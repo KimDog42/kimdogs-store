@@ -5,7 +5,6 @@ function LoginSuccess() {
   return (
     <div className="bg-black h-screen flex justify-center">
     <div>
-
         <div className="pt-40">
             <div className="pt-80">   
             <Loading textColor="success" color="success" size="xl">YOU CAN NOW CONTINUE!</Loading>

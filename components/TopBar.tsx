@@ -49,6 +49,16 @@ function TopBar() {
     </Tooltip>
       </Grid>
       </Grid.Container>
+
+      <Grid.Container>
+      <Grid>
+      <Tooltip content="Marketplace" placement="bottom" color="invert">
+        <a href="/Shop/Marketplace">
+    <ShoppingBagIcon className="h-10 flex items-center text-whitetransition ease-in-out delay-150hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 rounded text-white"/>
+    </a>
+    </Tooltip>
+      </Grid>
+      </Grid.Container>
     </div>
 
     </div>
